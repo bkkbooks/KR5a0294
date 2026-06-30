@@ -1,0 +1,64 @@
+canonical_identifier: bkk:krp/KR5a0294/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5a0294/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 黃帝宅經
+  date: '2015-08-28 23:44:27.729879'
+  source:
+    repository: kanripo
+    path: KR5a0294
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0294_000-ZTDZ.yaml, hash: 'sha256:9c3a8b1e15148b3c362cc3b683edd9f43a7f1dc2fc95ffcf576762910c8e72c2'}
+  - {seq: 1, filename: KR5a0294_001-ZTDZ.yaml, hash: 'sha256:55da1b33180efa328555a23906883dbc26f3f2587a699a5ff6fd8b41129f975d'}
+  - {seq: 2, filename: KR5a0294_002-ZTDZ.yaml, hash: 'sha256:9adf531118921bd55ee7f3326cec5ea6c90546330848879c5be69a7a009371e9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0294_000-ZTDZ.markers.yaml, hash: 'sha256:d484ff34695806c9a2f97e6ee929bf8f7c8bd4cc76e3fdbc39d48724f499758d'}
+  - {seq: 1, role: markers, filename: assets/KR5a0294_001-ZTDZ.markers.yaml, hash: 'sha256:0dc91881cb4d9f5491d8f42b063bbbcc593e9164e3dc401fea7694019a368fbd'}
+  - {seq: 2, role: markers, filename: assets/KR5a0294_002-ZTDZ.markers.yaml, hash: 'sha256:22573c249233d6a255d6c9c7118b89de86f3016c90c70ae0b8d3434af97f0ec9'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: ''
+    span:
+    - body
+    - 0
+    - 0
+  label: juan 000
+  type: section
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR5a0294_SJB_001-040979b
+    span:
+    - body
+    - 0
+    - 1019
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5a0294_SJB_002-040982b
+    span:
+    - body
+    - 0
+    - 2328
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:29feaf4267c1a551f67dd07b4d8afb9061c8ca0ac72b98b524c66cb0a42cd4c8

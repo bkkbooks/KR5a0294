@@ -1,0 +1,53 @@
+canonical_identifier: bkk:krp/KR5a0294/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5a0294/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 黃帝宅經
+  date: '2015-08-28 23:44:27.729879'
+  source:
+    repository: kanripo
+    path: KR5a0294
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0294_000-HFL.yaml, hash: 'sha256:5d1adefee2807d00ddc2096d1839c1a536ab8e2cda794ecdfa86995b9317ee66'}
+  - {seq: 1, filename: KR5a0294_001-HFL.yaml, hash: 'sha256:f4fcb9108d6302bef82f7775f3058003fec9d2df8997b0d6426849bb7046059e'}
+  - {seq: 2, filename: KR5a0294_002-HFL.yaml, hash: 'sha256:56ad4bf3b648b94739cb630d2e9aea24c0c95ada82c42a512fe90542667d77be'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR5a0294_001-HFL.markers.yaml, hash: 'sha256:f9d5806653cfda4dc651e6ebf75517880bcaddaa024f3f64f0670baf28522646'}
+  - {seq: 2, role: markers, filename: assets/KR5a0294_002-HFL.markers.yaml, hash: 'sha256:74a58d84d27cbac58351fd51bfc6f2a0082818cdfdacde2294eae0630a1dd846'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR5a0294_HFL_001-001a
+    span:
+    - body
+    - 0
+    - 1019
+  label: juan 001
+  type: section
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR5a0294_HFL_002-001a
+    span:
+    - body
+    - 0
+    - 2328
+  label: juan 002
+  type: section
+  level: 1
+hash: sha256:155e5fb9927681c887a8b55d1fcdb0a11b41a5a33c6792a27b59104fdd847439
